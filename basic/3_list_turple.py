@@ -14,9 +14,13 @@ print(grades)
 
 print(len(grades))  # 列表長度
 
-# 巢狀
+### 巢狀
 data = [[1, 2, 2, 2, 5], [3, 4, 4, 4, 5], [5, 6, 4, 6]]
 print(data[0])
 print(data[0][2:4])
 data[0][2:4] = [9, 9, 9, 9, 9]
 print(data)
+
+## tuple
+tu = (3, 4, 5, 6, 7, 8, 9)
+print(tu[0:2])
