@@ -3,3 +3,7 @@
 - 檔名用.py
 - ```python start.py``` 
 
+CA憑證過期 打 api 失敗 ->
+```cmd
+/Applications/Python\ 3.12/Install\ Certificates.command
+```

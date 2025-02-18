@@ -7,7 +7,7 @@
 # with open(檔案路徑,mode=開啟模式) as 檔案物件:
 #   讀取或寫入......
 # ------------------------
-# basic
+# level1
 # file = open("testData.txt", mode="w", encoding="utf-8")  # open
 # file.write("hi hi\nbello\n妳好")  # operation
 # file.close()  # close
@@ -18,14 +18,14 @@ with open("testData.txt", mode="w", encoding="utf-8") as file:
     file.write("1\n2\n98")# 寫入檔案(儲存) 換行用\n
 # ------------------------
 # 讀取全部文字 file.read()
-# basic
+# level1
 # file = open("testData.txt", mode="r", encoding="utf-8")  # open
 # v = file.read()
 # print(v)
 # ------------------------
 # 一次讀取一行 for var in file:
 #              x 依序讀取到v
-# basic
+# level1
 # sum0 = 0
 # file = open("testData.txt", mode="r", encoding="utf-8")
 # for line in file:
