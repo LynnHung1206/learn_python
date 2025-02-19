@@ -38,6 +38,7 @@ n.sayhi()
 
 # print(n.fullName)
 # ------------------
+import enums.FileMode as mode
 
 class File:
     def __init__(self, fileName, mode):
@@ -50,5 +51,5 @@ class File:
             self.file = file.read()
             return self.file
 
-f1 = File("test.txt", "r")
+f1 = File("test.txt", mode.FileMode.r)
 print("file=",f1.read())
